@@ -17,11 +17,6 @@ buildscript {
     }
 }
 
- android {
-      lintOptions {
-          abortOnError false
-      }
-  }
 
 allprojects {
     repositories {
