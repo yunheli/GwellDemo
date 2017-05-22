@@ -3,11 +3,6 @@
 
 
 buildscript {
- android {
-      lintOptions {
-          abortOnError false
-      }
-  }
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
@@ -21,6 +16,12 @@ buildscript {
 
     }
 }
+
+ android {
+      lintOptions {
+          abortOnError false
+      }
+  }
 
 allprojects {
     repositories {
